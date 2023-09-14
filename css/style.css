@@ -1,20 +1,13 @@
-@font-face {
-    font-family: 'Mantserrat';
-    src: url(../font/Montserrat-VariableFont_wght.ttf);
-}
-@font-face {
-    font-family: 'Lora';
-    src: url(../font/Lora-VariableFont_wght.ttf);
-}
+
 .root{
-    --Mantserratfont:'Mantserrat';
+    --font:'Montserrat', sans-serif;
     --lorafont:'lora';
 }
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: var(--Mantserratfont);
+    font-family:'Montserrat', sans-serif;
 }
 
 header img{
@@ -107,7 +100,7 @@ color: white;
 }
 
 .project button{
-width: 20%;
+width: 25%;
 background-color:#fa694a ;
 border: none;
 border-radius: 5%;
@@ -138,7 +131,25 @@ background-color: rgb(49, 48, 48);
 }
 
 .lonc{
+    position: relative;
     width: 80%;
     padding: 10%;
     background-color: gray;
+    margin: 5% 10%;
+}
+.mark{
+    width: 18%;
+    padding: 3%;
+    background-color: black;
+    margin-left: 38%;
+    border-radius: 5%
+}
+.mark i {
+    position: absolute;
+    top: 54%;
+    left: 46.5%;
+    font-size: 39px;
+}
+.mark p{
+    color: #fa694a;
 }
